@@ -1,0 +1,32 @@
+.header{
+    display: flex;
+    flex-direction: column;
+   justify-content: center;
+  align-items: center;
+  }
+  
+  .container{
+      background-color: brown;
+      width: 500px;
+      height: 500px;
+      margin: auto;
+      display: flex;
+      flex-wrap: wrap;
+      align-items: center;
+      justify-content: center;
+      margin-top: 20px;
+      border-radius: 5px;
+  }
+  
+  
+  .cell{
+  background-color: bisque;
+  width: 100px;
+  height: 100px;
+  margin: 20px;
+  transition: all 0.5s;
+  }
+   .cell:hover{
+      border-radius: 10px;
+      box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+   }
